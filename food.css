@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 10vh;
+    background-color: white;
+    box-shadow: 1px 1px 10px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3vh;
+    padding: 0px 2rem;
+    font-family: sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.header i:hover {
+    background-color: rgb(184, 182, 182);
+    cursor: pointer;
+}
+
+/* .sitebar {
+    height: 100vh;
+    width: 30vw;
+    background-color: white;
+    box-shadow: 2px 3px 10px black;
+    position: fixed;
+    padding: 3vw 2vh;
+    margin: 0px;
+    top: -0vh;
+    left: 0vw;
+}
+
+.sitebar h2 {
+    text-align: left;
+    width: 28vw;
+}
+
+.sitebar h2:hover {
+    background-color: rgb(179, 171, 171);
+} */
+
+.img-width {
+    width: 70vw;
+    height: 20vh;
+    background-color: gray;
+
+}
+
+.padding {
+    height: 400vh;
+    width: 100%;
+    /* background-color: rgb(202, 15, 93); */
+    padding: 1rem 2rem;
+}
+
+@media(max-width:800px) {
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 10vh;
+        width: 200vw;
+    }
+
+    .padding {
+        height: 5000vw;
+        width: 100%;
+        background-color: rgb(248, 219, 231);
+        padding: 1rem 2rem;
+    }
+
+
+}
+
+.div1 {
+    padding-top: 3vh;
+    height: 70vh;
+    width: 90vw;
+    text-align: center;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img-width {
+    width: 20vw;
+    height: 40vh;
+}
+
+.div1 div img {
+    height: 60vh;
+    width: 20vw;
+    font-size: 1rem;
+
+}
+
+.div1 h2 {
+    padding: 1rem 0;
+
+}
+
+.imgline {
+    margin-top: 30vh;
+}
+
+.numbers {
+    margin-top: 25vh;
+}
+
+.numbers ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.numbers ul p,
+i {
+    padding: 1vh 1vw;
+
+}
+
+.numbers p:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.numbers i:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+.about-me {
+    text-align: center;
+    margin: 4vh 0;
+}
+
+.about-me img {
+    margin-top: 6vh;
+    width: 80vw;
+}
+
+.how-i-am cite,
+p,
+h3 {
+    margin: 2vh 0vw;
+
+
+}
+
+.how-i-am p {
+    margin-bottom: 20vh;
+
+
+}
+
+.footer-main {
+    height: 41vh;
+    /* background-color: rgb(140, 241, 232); */
+    display: flex;
+
+}
+
+.footer1 a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: black;
+}
+
+.div2 img {
+    height: 10vh;
+    width: 5vw;
+    padding-right: 1vw;
+}
+
+.div2 {
+    width: 40rem;
+    margin: 0px 1vw;
+}
+
+.div2>div {
+    display: flex;
+    margin-top: 2vh;
+}
+
+
+
+.popular button {
+    background-color: black;
+    padding: 2srem;
+    color: white;
+    margin: 1vh;
+}
